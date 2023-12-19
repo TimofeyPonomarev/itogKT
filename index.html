@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="/img/favicon.png" rel="shortcut icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+           
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+        
+        }
+        html {
+            color: rgb(0, 255, 0);  
+        }
+        a {
+            color: rgb(0, 255, 0);
+            border: 2px dashed #00ff00;
+            margin: 20px;
+            
+        }
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        div {
+            width: 100px;
+            height: 100px;
+        }
+        .mainInfo{
+            position: absolute;
+            left: 100px;
+            width: 500px;
+            height: 500px;
+            text-align: left;
+        }
+        .mainPng{
+            position: absolute;
+            right: 50px;
+            width: 600px;
+            height: 600px; 
+        }
+        footer {
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-top: 2px dashed #00ff00;
+        }
+        #section2 {
+            background: #000 url(img/background.gif) no-repeat left bottom;
+            
+        }
+        .aboutInfo{
+            height: 500px;
+            width: 500px;
+        }
+        .projectEnter {
+            height: 300px;
+            width: 300px;
+        }
+        #section3 {
+            background: #000 url(img/back.gif) no-repeat left bottom;
+            background-size: 100% 100%;
+            border-bottom: 2px dashed #00ff00;
+        }
+        .contactInfo{
+            height: 500px;
+            width: 500px;
+            
+        }
+     
+    </style>
+    <title>Адаптивный сайт с 5 экранами прокрутки</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#section1">Главная</a>
+            <a href="#section2">Обо мне</a>
+            <a href="#section3">Проекты</a>
+            <a href="#section4">Прогресс</a>
+            <a href="#section5">Контакты</a></li> 
+        </nav>
+    </header>
+    <section id="section1">
+        <div class="mainInfo">
+            <p>- - - - - - - - -</p>
+            <p>[#u#o##i#g Si#g#al]</p>
+            <p>O#i#i#: G#-3492b</p>
+            <p>F#eque#cy: 12.67 GHz</p>
+            <p>E#coding: Ze#a-9 Ci#he#</p>
+            <p>P#o#ocol: Ext#a#e##est#ial Commu#ication</p>
+            <p>[A#alysis]</p>
+            <p>De#oding data in p#og#ess...</p>
+            <p>Dete#ted anomali#s: ???</p>
+            <p>P#obability of ext#a#e##est#ial activity: 0.12%</p>
+            <p>Investigating identification codes...</p>
+            <p>- - - - - - - - -</p>
+            <p>Hello!</p>
+            <p>Its Tim and this is my project!</p>
+            <p>- - - - - - - - -</p>
+        </div>
+        <div class="mainPng">
+            <img src="/img/earth.gif" alt="Вечность" class="earth" width="600px" height="600px">
+        </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="aboutInfo">
+            <p>In angulis tenebrosis Tristram, malum concitat. Dominus Terroris, Diablo, conatur suos exercitus daemoniacos effundere super mortale mundum. Fata Sanctuarii in manibus fortium heroum versantur. Num enfrentáis Prime Evils et mundum salvábitis, an succumbétis tenebris aeternis, quae omnia consumere minantur?</p><p>Ignis et gelu, solis et umbra.</p> <p><strong>Genus et ludendi modus:</strong><br>
+                Diablo II ludus actionis RPG est, a Blizzard Entertainment conditus et editus. Lusus anno MM anni 2000 productus est et sequens est originalis Diablo. Hic est brevis ludus descriptio:</p>
+                <p><strong>Expansiones:</strong><br>
+                Diablo II: Lord of Destruction supplementum aedificium est quod duos actus, duas novas classes (Assassin et Druid) et multa nova instrumenta addidit.</p>
+                <p><em>Per tempus Diablo II classicum factum est et pars essentialis historiae ludorum video permanet, inductans admiratores suos voluptate ludendi et atmosphaera.</em></p>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="projectEnter">
+            <form>
+                <strong>Для получение доступа - необходимо совершить вход</strong>
+                <br>
+                <label for="username">Логин:</label>
+                <br>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Пароль:</label>
+                <br>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+    </section>
+    <section id="section4">
+        <progress value="70" max="100"></progress> HTML <br>
+        <progress value="90" max="100"></progress> JS <br>
+        <progress value="100" max="100"></progress> BD <br>
+        <progress value="0" max="100"></progress> Node <br>
+        <progress value="0" max="100"></progress> Git <br>
+    </section>
+    <section id="section5">
+        <div class="contactInfo">
+            <p>Потча: Tim@gmail</p>
+            <p>num: 89032557456</p>
+            <p>Vk</p>
+            <p>tg</p>
+            <p>Git</p>
+            <p>Ithub</p>
+        </div>
+    </section>
+    
+
+
+
+    <footer><p>Tim Pon 2P1-22 2023</p></footer>
+</body>
+</html>
