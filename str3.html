@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css"> 
+</head>
+<body>
+    <h2>Оцените работу!</h2>
+    <div class="star-rating">
+        <div class="stars">
+          <label class="number"><input type="radio" name="rating" value="0"></label>
+          <label class="star"><input type="radio" name="rating" value="1"></label>
+          <label class="star"><input type="radio" name="rating" value="2"></label>
+          <label class="star"><input type="radio" name="rating" value="3" checked></label>
+          <label class="star"><input type="radio" name="rating" value="4"></label>
+          <label class="star"><input type="radio" name="rating" value="5"></label>
+          <div class="number-rating"></div>
+        </div>
+      </div>
+      <footer>
+        <nav>
+            <ul>
+                <li><a href="str1.html">Страница 1</a></li>
+                <li><a href="str2.html">Страница 2</a></li>
+                <li><a href="str3.html">Страница 3</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <style>
+        footer {
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 20px; /* Поля внутри footer */
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /* Прижат вниз */
+    width: 100%; /* Ширина по всей ширине экрана */
+}
+
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем отступы */
+}
+
+nav ul li {
+    display: inline; /* Отображаем элементы списка горизонтально */
+    margin-right: 20px; /* Отступ между элементами списка */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Убираем отступ у последнего элемента списка */
+}
+
+nav ul li a {
+    color: #fff; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    font-weight: bold; /* Жирный текст */
+}
+
+    </style>
+</body>
+</html>
